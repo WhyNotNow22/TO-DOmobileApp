@@ -7,14 +7,14 @@
 body {
    background: url("../img/background.jpg") center no-repeat;
    background-size: cover;
-   height: 1280px;
+   height: 700px;
    width: 100%;
 }
 
 header {
    width: 90%;
-   height: 120px;
-   position: fixed;
+   height: 50px;
+   position: absolute;
    top: 3%;
    left: 5%;
    z-index: 5;
@@ -28,20 +28,23 @@ header {
 
 .inputTask {
    width: 80%;
-   height: 60%;
+   height: 40px;
    border-radius: 20px;
    background: rgba(47, 123, 236, 0.404) ;
    border: 2px solid rgba(1, 25, 129, 0.7);;
-   font-size: 32px;
+   font-size: 18px;
    color: white;
    font-family: "Lato";
    padding-left: 10px;
+   border: none;
+   outline: none;
+   appearance: none;
 }
 
 .AddTaskButton {
 
-   width: 60px;
-   height: 60px;
+   width: 35px;
+   height: 35px;
    background: url("../img/AddButton.png") center no-repeat;
    background-size: cover;
    border: none;
