@@ -8,9 +8,20 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <input class="inputTask" type="text" placeholder="Enter task...">
-        <button class="AddTaskButton"></button>
+    <header class = "flex-row">
+        <input id="input" class="inputTask" type="text" placeholder="Enter task...">
+        <button id="add" class="AddTaskButton"></button>
     </header>
+    <div class="container">
+        <ul id="todo" class=todo>
+            <!--<li>
+                <p class="taskText"></p>
+                <button id="delete" class="deleteTask"></button>
+                <button id="done" class="didTask"></button>
+            </li>-->
+        </ul>
+
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
